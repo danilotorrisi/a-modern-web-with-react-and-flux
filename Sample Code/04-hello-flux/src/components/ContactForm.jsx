@@ -49,7 +49,7 @@ export default class ContactForm extends React.Component {
                 <input type="text" name="lastName" className="form-control" placeholder="Last Name" value={this.state.lastName} onChange={this.onChange.bind(this)} />
               </div>
               <div className="form-group col-xs-2">
-                <label className="sr-only">Phone Name</label>
+                <label className="sr-only">Phone Number</label>
                 <input type="number" name="phoneNumber" className="form-control" placeholder="Phone Number" value={this.state.phoneNumber} onChange={this.onChange.bind(this)} />
               </div>
               <div className="col-xs-6">
